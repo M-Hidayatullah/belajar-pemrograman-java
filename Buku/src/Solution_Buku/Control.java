@@ -19,7 +19,8 @@ public class Control implements control_interface{
     @Override
     public void read(JTable bc) {
            DefaultTableModel dtm = new DefaultTableModel(null, header);
-
+            
+    
         for (int i = 0; i < list.size(); i++) {
             Object[] oj = new Object[7];
             oj[0] = list.get(i).getKODE_BUKU();

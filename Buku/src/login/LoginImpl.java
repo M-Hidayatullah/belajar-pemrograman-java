@@ -1,7 +1,7 @@
 
-package Solution_Buku.sigin;
+package login;
 
-import Solution_Buku.sigin.FormLogin;
+import login.FormLogin;
 
 
 public class LoginImpl implements LoginInterface {
